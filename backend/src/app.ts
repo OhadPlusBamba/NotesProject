@@ -10,7 +10,6 @@ import env from "./util/validatelEnv";
 import MongoseStore from "connect-mongo";
 import { requiresAuth } from "./middleware/auth";
 
-
 const app = express();
 
 app.use(morgan("dev"));
